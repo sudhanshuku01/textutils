@@ -1,6 +1,14 @@
 .App {
   text-align: center;
 }
+.container{
+  background-color: rgb(47, 40, 28);
+  color: yellow;
+}
+h1{
+  background-color: brown;
+  filter: drop-shadow();
+}
 
 .App-logo {
   height: 40vmin;

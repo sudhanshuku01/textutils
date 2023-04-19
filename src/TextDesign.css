@@ -1,0 +1,157 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: rgb(23 25 48);
+    padding: 0.6vw;
+    color: white;
+    filter:sepia(2);
+}
+.topiclist{
+    width: 86vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.topic{
+    cursor: pointer;
+    font-weight: normal;
+    font-family: 'Rubik Wet Paint';
+    margin: 0.3vw 3vw;
+    list-style: none;
+    font-size: 1.3vw;
+    color: #47e38b;
+    filter: drop-shadow(2px 4px 6px black);
+}
+#appname{
+    font-size: 1.5vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    display: flex;
+    margin: 1vw;
+}
+.fontstylelist{
+    overflow: auto;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0.3vw;
+}
+button{
+    cursor: pointer;
+}
+.ta{
+    width: 30vw;
+    height: 4vw;
+}
+.btn{
+    width: 5vw;
+    font-size: 1vw;
+    padding: 0.2rem 0.3rem;
+    margin: 0.3rem 0;
+}
+#font0{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+#font1{
+    font-family: 'Kaushan Script', cursive;
+}
+#font2{
+    font-family: 'Press Start 2P', cursive;
+}
+#font3{
+    font-family: 'Rock Salt', cursive;
+} 
+#font4{
+    font-family: 'Rubik Wet Paint', cursive;
+}
+#font5{
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+#font6{
+    font-family: 'Six Caps', sans-serif;
+}
+#font7{font-family: 'Titan One', cursive;
+}
+.font-items{
+    display: flex;
+    flex-direction: column;
+}
+.masterbtn{
+    font-size: 1.2vw;
+    margin: 0rem 0.3rem;
+}
+.tttt{
+    color: #4a2d2d;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Press Start 2P';
+    margin: 0.5vw;
+}
+.section2{
+    margin: auto;
+}
+.magic{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Press Start 2P';
+    margin: 0.5vw;
+}
+.hdlist{
+    height: 1.6vw;
+    background: white;
+    width: 2.2vw;
+    position: absolute;
+    top: 1vw;
+    left: 90vw;
+   visibility: hidden;
+}
+.hdlistele{
+    width: 2.2vw;
+    list-style: none;
+    height: 0.4vw;
+    background: darkred;
+    margin: 0.3vw 0vw;
+}
+@media only screen and (max-width: 821px) {
+  .container{
+    flex-direction: column;
+  }
+  .textinput{
+    text-align: center;
+  }
+  #mybox{
+    width: 80vw;
+    height: 15vw;
+  }
+  .hdlist{
+    opacity: 1;
+    cursor: pointer;
+  }
+  .navbar{
+    flex-direction: column;
+    height: 3vw;
+  }
+  .topiclist{
+    flex-direction: column;
+   opacity: 0;
+  }
+  .hdlist{
+    visibility: visible;
+    cursor: pointer;
+  }
+
+}
+/* font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Rubik Wet Paint', cursive;
+font-family: 'Sedgwick Ave Display', cursive;
+font-family: 'Six Caps', sans-serif;
+font-family: 'Titan One', cursive; */
